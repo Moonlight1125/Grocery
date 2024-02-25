@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+/* Main Style */
+.groceryList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+   
+}
+#material{
+    width: 100%;
+    list-style: none;
+}
+li{
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid aqua ;
+ } 
+.container{
+    background:white;
+    box-shadow: 10px 10px 10px 5px gray;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+    width: 500px;
+}
+h1{
+    margin-top: 40px;
+}
+form{
+    /* border: 1px solid black; */
+    height: 200px;
+    padding-top: 30px;
+}
+.addGrocery{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+}
+.addBtn{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    background: rgb(78, 244, 244);
+    outline: none;
+    border: none;
+}
+.addBtn:hover{
+    transition: all .25s;
+    opacity: 0.6;
+}
+.text{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid aqua ;
+    outline: none;
+    text-decoration: none;
+}
+p{
+    color: rgb(178, 74, 74);
+}
+p:hover{
+    transition: all .25s;
+    opacity: 0.7;
+}

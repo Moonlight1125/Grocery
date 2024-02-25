@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <!-- https://qiita.com/t-yama-3/items/0d43c0738063b15f4963
+    アイコンもらえるとこ
+    -->
+    <!-- チェック -->
+     <!-- <i style="visibility: hidden;" class="fa-solid fa-check"></i> -->
+    <!--バツ-->
+    <!-- <i style="visibility: hidden;" class="fa-solid fa-xmark"></i> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Grocery Bud</h1>
+        <form id="forms" action="">
+            <div class="addGrocery">
+                <input id="text" class="text" type="text" placeholder="material">
+                <input id="submit" class="addBtn" type="submit" value="submit">
+            </div>
+
+            <nav class="groceryList" id="groceryList">
+                <ul id="material" >
+                    <!-- <li class="dummy">
+                        <span class="dummy">fff</span>
+                        <div>
+                            <i class="fa-solid fa-check"></i> 
+                            <i class="fa-solid fa-xmark"></i> 
+                         </div>
+                     </li> -->
+                </ul>
+            </nav>
+            <p class="clearBtn" id="clearBtn">Clear Items</p>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
